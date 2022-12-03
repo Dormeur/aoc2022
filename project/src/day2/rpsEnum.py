@@ -14,9 +14,9 @@ class RPS(Enum):
 
     @staticmethod
     def from_str_play(char):
-        if char == 'A':
+        if char in ('A', 'X'):
             return RPS.ROCK
-        elif char == 'B':
+        elif char in ('B', 'Y'):
             return RPS.PAPER
         else:
             return RPS.SCISSORS

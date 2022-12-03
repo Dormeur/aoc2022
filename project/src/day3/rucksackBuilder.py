@@ -1,15 +1,16 @@
 from day3.charToInt import char_to_int
 from day3.elfsGroup import ElfsGroup
 from day3.rucksack import Rucksack
+from utils import read_file
 
 rucksacks = []
 elfsGroups = []
 
 
 def build_rucksacks_list():
-    f = open("../ressources/input_day_3.txt", "r")
+    f = read_file("../ressources/input_day_3.txt")
     for line in f:
-        rucksacks.append(Rucksack(line.rstrip()))
+        rucksacks.append(Rucksack(line))
 
 
 def get_shared_item_priorities():
