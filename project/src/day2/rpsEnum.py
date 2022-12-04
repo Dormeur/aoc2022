@@ -13,7 +13,7 @@ class RPS(Enum):
     SCISSORS = 2
 
     @staticmethod
-    def from_str_play(char):
+    def from_str_play(char: str):
         if char in ('A', 'X'):
             return RPS.ROCK
         elif char in ('B', 'Y'):
