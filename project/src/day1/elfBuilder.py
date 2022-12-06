@@ -8,7 +8,7 @@ elfs = [Elf()]
 
 def build_elf_list():
     current_elf_index = 0
-    f = read_file("../ressources/input_day_1.txt")
+    f = read_file("../resources/input_day_1.txt")
     for line in f:
         if line.isdigit():
             elfs[current_elf_index].calories += int(line)

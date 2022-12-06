@@ -7,7 +7,7 @@ games = []
 
 def build_game_list():
     games.clear()
-    f = read_file("../ressources/input_day_2.txt")
+    f = read_file("../resources/input_day_2.txt")
     for line in f:
         opponent_play = RPS.from_str_play(line[0])
         my_play = RPS.from_str_play(line[2])
@@ -16,7 +16,7 @@ def build_game_list():
 
 def build_game_with_strat_list():
     games.clear()
-    f = read_file("../ressources/input_day_2.txt")
+    f = read_file("../resources/input_day_2.txt")
     for line in f:
         opponent_play = RPS.from_str_play(line[0])
         my_play = RPS.from_strat(opponent_play.value, line[2])

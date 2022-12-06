@@ -16,7 +16,7 @@ def build_section(line) -> List[int]:
 
 
 def build_elfs_pair_list():
-    f = read_file("../ressources/input_day_4.txt")
+    f = read_file("../resources/input_day_4.txt")
     for line in f:
         elfs_section_number = line.split(',')
         first_elf_section = build_section(elfs_section_number[0].split('-'))

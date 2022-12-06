@@ -8,7 +8,7 @@ elfsGroups = []
 
 
 def build_rucksacks_list():
-    f = read_file("../ressources/input_day_3.txt")
+    f = read_file("../resources/input_day_3.txt")
     for line in f:
         rucksacks.append(Rucksack(line))
 
