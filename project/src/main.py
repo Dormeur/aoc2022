@@ -4,6 +4,7 @@ from day3.rucksackBuilder import *
 from day4.elfsPairBuilder import *
 from day5.stackBuilder import *
 from day6.markerBuilder import *
+from day7.directoryBuilder import *
 
 
 def all_day():
@@ -36,8 +37,9 @@ def all_day():
     build_start_of_packet_marker()
     build_start_of_message_marker()
     print('---Day 7---')
-    
+    build_directory()
+    print('---Day 8---')
+
 
 if __name__ == "__main__":
     all_day()
-
