@@ -5,6 +5,7 @@ from day4.elfsPairBuilder import *
 from day5.stackBuilder import *
 from day6.markerBuilder import *
 from day7.directoryBuilder import *
+from day8.treeBuilder import *
 
 
 def all_day():
@@ -39,7 +40,11 @@ def all_day():
     print('---Day 7---')
     build_directory()
     print('---Day 8---')
+    tree_builder()
+    print('---Day 9---')
+    
 
 
 if __name__ == "__main__":
-    all_day()
+    #all_day()
+
