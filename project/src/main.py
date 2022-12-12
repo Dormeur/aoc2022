@@ -6,6 +6,7 @@ from day5.stackBuilder import *
 from day6.markerBuilder import *
 from day7.directoryBuilder import *
 from day8.treeBuilder import *
+from day9.ropeBuilder import build_rope
 
 
 def all_day():
@@ -42,9 +43,10 @@ def all_day():
     print('---Day 8---')
     tree_builder()
     print('---Day 9---')
-    
+    build_rope(1)
+    build_rope(9)
+    print('---Day 10---')
 
 
 if __name__ == "__main__":
-    #all_day()
-
+    all_day()
