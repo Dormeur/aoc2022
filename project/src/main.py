@@ -1,5 +1,6 @@
 from day1.elfBuilder import *
 from day10.signalBuilder import *
+from day11.monkeyBuilder import *
 from day2.rpsGameBuilder import *
 from day3.rucksackBuilder import *
 from day4.elfsPairBuilder import *
@@ -51,6 +52,9 @@ def all_day():
     print_sum_of_monitored_cycles()
     print_screen()
     print('---Day 11---')
+    build_monkey_list(10000)
+    print('---Day 12---')
+
 
 if __name__ == "__main__":
     # all_day()
